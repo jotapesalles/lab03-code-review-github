@@ -1,0 +1,251 @@
+repo,title,state,duration_hours,additions,deletions,changed_files,body_length,review_count,comment_count
+freeCodeCamp/freeCodeCamp,fix(client): heatmap button size,merged,3.37,4,1,2,541,2,0
+freeCodeCamp/freeCodeCamp,test: confirm that lab project previews can be viewed,merged,1.64,29,2,1,294,2,0
+freeCodeCamp/freeCodeCamp,refactor: remove DeepEqual,merged,2.37,75,119,9,298,2,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): word choice in css accessibility quiz,merged,5.0,1,1,1,320,2,1
+freeCodeCamp/freeCodeCamp,fix(client): adjust button padding and dimensions,merged,15.53,2,1,1,559,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): add 100% max-width requirement to business card lab,merged,17.71,8,0,1,560,5,0
+freeCodeCamp/freeCodeCamp,feat: add placeholder for all python module,merged,50.12,391,50,2,393,3,0
+freeCodeCamp/freeCodeCamp,chore: improve error logs on timeout,merged,14.34,13,1,1,315,2,0
+freeCodeCamp/freeCodeCamp,feat(curriculum): add typescript review page,merged,50.55,246,1,2,275,3,1
+freeCodeCamp/freeCodeCamp,"chore(i18n,client): processed translations",merged,2.4,10,70,10,45,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): specify parameter in forEach method callback function,merged,39.53,1,1,1,275,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): Leap Year Calculator - allow assignment to single declaration,merged,45.03,7,1,1,475,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in video description,merged,34.11,4,4,4,275,3,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): add optional chaining,merged,19.09,3,3,1,282,3,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo changed from preceeded to preceded,merged,5.81,1,1,1,275,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): remove TypeError messages,merged,30.48,6,7,1,275,3,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): remove user story and test for list-style-type: none,closed,3.04,6,18,1,359,1,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): remove list-style-type: none; requirement,merged,3.37,6,18,1,275,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in video blank,merged,6.97,1,1,1,275,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): update blog card's image tests,merged,67.27,9,2,1,275,5,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): Update requirements for error logging in FCC leaderboard,merged,10.28,2,2,1,275,2,0
+freeCodeCamp/freeCodeCamp,refactor(tools): improve readability of external curricula build script,merged,11.83,12,14,1,389,2,0
+freeCodeCamp/freeCodeCamp,"chore(i18n,learn): update i18n-curriculum submodule",merged,2.52,1,1,1,47,2,0
+freeCodeCamp/freeCodeCamp,"chore(i18n,client): processed translations",merged,4.27,690,250,20,45,2,0
+freeCodeCamp/freeCodeCamp,"fix(curriculum): change ""attento"" to ""attention""",merged,9.07,1,1,1,275,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): fix anchors with hash within iframe to scroll to target element,merged,85.13,9,0,1,452,2,0
+freeCodeCamp/freeCodeCamp,chore(curriculum): replace ellipse with trailing dots,merged,67.99,2,2,1,275,2,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): adding missing backticks for `rem` values in css quiz,merged,54.04,2,2,1,275,2,2
+freeCodeCamp/freeCodeCamp,"fix(curriculum): in step 7 ""window-1"" missing #",merged,37.8,1,1,1,259,2,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): Typo in Python Password,merged,3.22,1,1,1,299,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): implement updates to favorite icon toggler,merged,135.96,43,35,1,273,3,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): Correct typo in CSS Pseudo-classes Quiz,merged,18.75,1,1,1,417,2,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): reorder full stack javascript object lectures,merged,27.65,4,4,1,556,2,1
+freeCodeCamp/freeCodeCamp,feat(curriculum): videos and transcripts for react dependencies and frameworks,merged,157.77,237,7,3,272,2,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in dependency management tools lecture dashedname,merged,70.65,4,4,7,259,2,0
+freeCodeCamp/freeCodeCamp,feat(client): decouple superblock id from certification name,merged,122.88,26,60,7,265,2,1
+freeCodeCamp/freeCodeCamp,refactor: ignore returned functions from tests,merged,7.47,3,13,1,489,2,1
+freeCodeCamp/freeCodeCamp,feat(schema): add 'dialogue-grid' layout option to block layouts,merged,7.72,160,155,55,379,2,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in word blank,merged,9.28,1,1,1,275,2,2
+freeCodeCamp/freeCodeCamp,"chore(i18n,learn): update i18n-curriculum submodule",merged,11.08,1,1,1,47,2,1
+freeCodeCamp/freeCodeCamp,chore(curriculum): remove test automation block,merged,94.53,0,323,12,465,2,0
+freeCodeCamp/freeCodeCamp,chore: remove fcc-10 GB flag,merged,85.96,0,3,1,429,2,0
+freeCodeCamp/freeCodeCamp,fix: lint error in frame-runner,merged,4.09,1,0,1,339,3,2
+freeCodeCamp/freeCodeCamp,feat(GHA): run on workflow completion,merged,96.85,7,0,1,250,2,0
+freeCodeCamp/freeCodeCamp,Fix(curriculum): missing quote in lunch-picker-program / md file,merged,1.68,1,1,1,501,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): email masker project  with inconsistent star count,merged,3.44,2,2,1,273,2,0
+freeCodeCamp/freeCodeCamp,chore: clean up profile tests,merged,19.08,14,36,4,372,3,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): Remove Plural hint that appears twice,merged,2.62,1,1,1,273,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in word blank,merged,3.71,1,1,1,275,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): moving reverse a string lecture to different lecture block,merged,24.34,4,4,3,275,3,1
+freeCodeCamp/freeCodeCamp,feat: remove 'original' and __file,merged,8.22,5,25,10,304,2,0
+freeCodeCamp/freeCodeCamp,"chore(i18n,client): processed translations",merged,1.62,20,20,10,45,2,0
+freeCodeCamp/freeCodeCamp,feat(client): highlight sass in instructions,merged,2.72,2,0,1,275,2,0
+freeCodeCamp/freeCodeCamp,feat: remove getUserInput,merged,26.92,553,812,133,542,2,2
+freeCodeCamp/freeCodeCamp,feat(curriculum): add content for css libraries and frameworks review page,merged,37.52,98,1,2,275,4,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): Add hint to fill in the blank (A2 English),merged,8.3,2,0,1,275,3,0
+freeCodeCamp/freeCodeCamp,fix(curriculum):typos fixed in english challenges files,merged,1.75,6,6,6,275,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): Fix misleading question about screen magnifiers,merged,5.84,8,8,1,275,5,0
+freeCodeCamp/freeCodeCamp,fix(curriculum) : Typo Fix for issue,merged,2.32,2,2,1,296,2,0
+freeCodeCamp/freeCodeCamp,chore(client): update tsconfig lib and target,merged,8.98,2,2,1,399,2,0
+freeCodeCamp/freeCodeCamp,chore(ci): consolidate api e2e testing,merged,42.92,102,177,2,400,2,0
+freeCodeCamp/freeCodeCamp,"fix(GHA): add notifications, run on workflow triggers",closed,9.08,54,17,1,0,1,0
+freeCodeCamp/freeCodeCamp,"fix(config, client): correct environment name in paypal config",merged,1.23,6,6,2,1158,3,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): update verb double up by removing show,merged,1.03,2,2,2,346,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): remove plural from noun in review page,merged,16.49,2,2,2,275,3,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): update instructions to remove broken dataset link,merged,61.15,2,2,1,283,3,2
+freeCodeCamp/freeCodeCamp,chore(deps): update @freecodecamp/ui to version 4.0.1,merged,16.84,99,76,7,275,2,1
+freeCodeCamp/freeCodeCamp,"chore(i18n,learn): update i18n-curriculum submodule",merged,1.25,1,1,1,47,2,0
+freeCodeCamp/freeCodeCamp,fix(tools): use dashed name for live version of challenge in editor,merged,18.25,8,4,3,420,2,0
+freeCodeCamp/freeCodeCamp,fix(client): Change reset lesson message to be dynamic,merged,72.49,13,5,4,275,11,11
+freeCodeCamp/freeCodeCamp,"chore(i18n,client): processed translations",merged,3.26,82,202,20,45,2,0
+freeCodeCamp/freeCodeCamp,fix(external-curriculum): add full-stack cert to external curriculum,merged,8.29,10,7,3,275,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum):  typo in JS audio and video quiz,merged,5.23,1,1,1,258,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): apply the correct answer to the full meaning of MIME,merged,5.27,2,2,1,273,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): article missing from description,merged,9.53,1,1,1,275,2,0
+freeCodeCamp/freeCodeCamp,fix: update reset message to clarify it resets step not lesson,closed,39.12,8,8,1,376,1,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): changed from 'Philosofical' to 'Philosophical',merged,2.98,1,1,1,403,2,0
+freeCodeCamp/freeCodeCamp,chore(tools): Ignore white space in challenge id testing,merged,1.61,4,2,1,389,2,0
+freeCodeCamp/freeCodeCamp,fix(UI): remove modal class selector,merged,2.11,0,4,1,295,2,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): Remove test assertion as not required for flex element ,merged,93.76,0,26,20,337,6,3
+freeCodeCamp/freeCodeCamp,fix(ui): browse other certs,merged,3.15,1,1,1,275,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): update `slice` method example in JavaScript Strings Review,merged,5.98,3,3,1,275,2,1
+freeCodeCamp/freeCodeCamp,fix(client): navigate campers to the correct page when exiting quiz,merged,309.46,35,17,2,702,3,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): corrected Typo in CSS Relative and Absolute Units quiz,merged,2.26,1,1,1,295,2,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): correct link in The Odin Project intro,merged,9.02,2,2,1,319,3,0
+freeCodeCamp/freeCodeCamp,fix typo in CSS Relative and Absolute Units quiz ,closed,4.5,1,1,1,406,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in classes JS quiz,merged,8.06,1,1,1,275,2,0
+freeCodeCamp/freeCodeCamp,chore(curriculum): cleanup questions for css libraries and frameworks quiz,merged,85.71,91,245,1,332,2,0
+freeCodeCamp/freeCodeCamp,fix: add missing periods in comprehension check questions,closed,10.58,4,3,1,288,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): Clarify quiz game instructions and tests,merged,26.35,8,1,1,275,4,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): Improve instruction clarity,merged,58.45,2,2,2,823,3,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): add periods for comprehension check questions in effective habits lecture,merged,1.47,12,12,1,275,2,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in explanation of spaced repetition,merged,2.39,1,1,1,275,2,3
+freeCodeCamp/freeCodeCamp,"fix(curriculum): Moved HTML Boilerplate, UTF8 and Link Element lectures into What is HTML Block",merged,36.53,12,12,5,304,3,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): add missing word to video description,merged,8.17,1,1,1,275,2,0
+freeCodeCamp/freeCodeCamp,feat(curriculum): add introduction and set isUpcomingChange flag to false for B1 block 12,merged,10.87,4,2,2,259,2,0
+freeCodeCamp/freeCodeCamp,chore(curriculum): Move palindrome checker to regex module,merged,42.19,1,1,1,275,2,0
+freeCodeCamp/freeCodeCamp,"chore(i18n,learn): update i18n-curriculum submodule",merged,24.69,1,1,1,47,2,0
+freeCodeCamp/freeCodeCamp,fix(curriculum): Make recipe page test for invalid image URLs,merged,57.89,20,1,1,275,9,0
+codecrafters-io/build-your-own-x,add a new operating system tutorial,closed,1.71,1,0,1,193,1,1
+codecrafters-io/build-your-own-x,Update README.md,closed,673.22,1,1,1,180,1,2
+codecrafters-io/build-your-own-x,Update README.md,closed,1174.8,1,1,1,34,2,0
+codecrafters-io/build-your-own-x,feat: added how to build a cli app with node 2024 guide,closed,1829.3,1,0,1,140,1,1
+codecrafters-io/build-your-own-x,fix: fixed broken link from list,merged,168.81,1,1,1,12,3,2
+codecrafters-io/build-your-own-x,added python commandline tool,closed,54.93,2,0,1,91,2,0
+codecrafters-io/build-your-own-x,new pull request,closed,17.91,1,0,1,0,1,0
+codecrafters-io/build-your-own-x,Update README.md,closed,11269.16,3,3,1,31,1,1
+codecrafters-io/build-your-own-x,Update README.md,closed,125.56,1,0,1,13,1,0
+codecrafters-io/build-your-own-x,Fix: Replaced a broken link with alternative from smashingmagazine.com,merged,637.14,1,1,1,142,1,0
+codecrafters-io/build-your-own-x,add Build your own VPN/Virtual Switch,merged,15.38,1,0,1,109,3,0
+codecrafters-io/build-your-own-x,Add quote information,closed,4901.0,1,1,1,0,1,1
+codecrafters-io/build-your-own-x,Add KV store,merged,39.49,1,0,1,48,2,1
+codecrafters-io/build-your-own-x,Add Create Your Own CLI Tool with NodeJS,merged,88.36,1,0,1,11,1,1
+codecrafters-io/build-your-own-x,add python slack bot,closed,4347.47,1,0,1,136,3,0
+codecrafters-io/build-your-own-x,Update README.md,closed,15553.37,1,0,1,70,1,0
+codecrafters-io/build-your-own-x,New 2D game development with JavaScript added,closed,2048.3,1,0,1,82,1,0
+codecrafters-io/build-your-own-x,Update Games With Go unavailable link,merged,98.29,1,1,1,139,1,1
+codecrafters-io/build-your-own-x,Add tutorial for building a Rust Text Editor.,merged,1137.44,1,0,1,57,1,1
+codecrafters-io/build-your-own-x,Added tutorial for building a basic Rust CLI app,closed,9169.06,1,0,1,83,4,1
+codecrafters-io/build-your-own-x,Emphasize JavaScript's Regex Implementation Topic,merged,68.12,1,1,1,109,1,1
+codecrafters-io/build-your-own-x,added cryptoCurreny miner and dockerize tuturial,closed,5825.62,1,0,1,68,1,1
+codecrafters-io/build-your-own-x,chore: remove reverse engineering react unavailable resourse,merged,592.45,0,1,1,0,1,0
+codecrafters-io/build-your-own-x,Add a tutorial about writing a Tetris game.,closed,1777.51,1,0,1,60,1,0
+codecrafters-io/build-your-own-x,Add Ray Tracing in One Weekend,merged,19325.11,1,0,1,188,2,0
+codecrafters-io/build-your-own-x,"Add link to ""ugit: Building Git Yourself""",merged,20204.14,1,0,1,573,1,0
+sindresorhus/awesome,Add missing period for consistency in the Code-of-Conduct.md section,closed,1.13,1,1,1,7417,2,1
+sindresorhus/awesome,Add CodeRabbit,merged,1106.47,1,0,1,7634,6,12
+sindresorhus/awesome,Add Large Language Model,closed,224.42,1,0,1,7291,5,4
+sindresorhus/awesome,Add Free Apps,closed,630.79,3,0,1,7372,3,13
+sindresorhus/awesome,@KAPKYK,closed,7.83,0,0,1,7147,1,0
+sindresorhus/awesome,Add Permacomputing,merged,2100.39,1,0,1,7283,8,7
+sindresorhus/awesome,Add PostgreSQL hacking,closed,1505.87,1,0,1,6462,10,10
+sindresorhus/awesome,"Add ""FOSS Alternatives""",closed,1720.57,1,0,1,7445,5,7
+sindresorhus/awesome,Add Python Resources,closed,16.69,1,0,1,7177,1,4
+sindresorhus/awesome,Add Reflex,merged,1294.45,1,0,1,7453,2,13
+sindresorhus/awesome,Add Windows,merged,1297.73,1,1,1,7353,10,15
+sindresorhus/awesome,Add Global Library,closed,1598.82,1,1,1,7380,1,5
+sindresorhus/awesome,Add Event-Driven Architecture,merged,2522.76,1,0,1,7205,7,15
+sindresorhus/awesome,Update Ionic,merged,9.78,1,1,1,7302,1,0
+sindresorhus/awesome,Add Xiangqi,closed,4510.49,1,0,1,7592,4,16
+sindresorhus/awesome,Add Email Security,closed,1079.15,1,1,1,7424,4,9
+sindresorhus/awesome,Add Worlist,closed,2859.1,1,0,1,7148,1,3
+sindresorhus/awesome,Add Lucid Dreams,merged,3032.62,1,0,1,6648,5,6
+sindresorhus/awesome,Add Tor,merged,941.83,1,0,1,7683,6,7
+sindresorhus/awesome,Add Regex,merged,3365.9,1,0,1,6917,2,6
+sindresorhus/awesome,Add Pentest Cheat Sheets,closed,3402.57,1,0,1,443,2,6
+sindresorhus/awesome,Add Geocaching,merged,295.92,1,0,1,6572,2,11
+sindresorhus/awesome,Add Microsoft Azure Architecture,closed,1856.99,1,0,1,7542,3,8
+sindresorhus/awesome,Update link Awesome-C,closed,35.66,1,1,1,59,1,2
+sindresorhus/awesome,Add Google Cloud,merged,1704.26,1,0,1,6747,2,11
+sindresorhus/awesome,Add LiDAR Place Recognition,closed,497.07,6,3,2,7234,1,6
+sindresorhus/awesome,Add VLM Architectures,merged,5378.86,1,0,1,7404,1,12
+sindresorhus/awesome,Adding Awesome Farcaster Frames,closed,149.81,1,0,1,7147,1,1
+sindresorhus/awesome,Add Babylon.js,merged,6497.32,1,0,1,7280,2,10
+sindresorhus/awesome, Add Technical Topics,closed,2808.96,1,0,1,551,1,4
+sindresorhus/awesome,Add STEM Academy,closed,189.41,1,0,1,7301,2,4
+sindresorhus/awesome,Add Generative AI Meets Julia,closed,7135.58,2,0,1,7111,4,15
+sindresorhus/awesome,Add PocketBase,merged,4114.1,1,0,1,7471,3,18
+sindresorhus/awesome,Add Locust,closed,7723.12,1,0,1,7331,3,3
+sindresorhus/awesome,Add QGis,closed,1744.18,1,0,1,7262,2,4
+sindresorhus/awesome,Update readme.md - Add LLM WebUIs,closed,1897.02,1,0,1,7251,1,2
+sindresorhus/awesome,Add Telegram Mini Apps,closed,8069.06,1,0,1,7214,2,10
+sindresorhus/awesome,Add Annual Security Reports,merged,9136.57,1,0,1,7263,12,21
+sindresorhus/awesome,Link to maintained successor for PHP,closed,1474.13,1,1,1,85,2,7
+sindresorhus/awesome,Add AI Collection,closed,2639.84,1,0,1,7498,2,9
+sindresorhus/awesome,Update contributing.md,merged,1.35,1,1,1,1368,1,1
+sindresorhus/awesome,Add Detection Engineering,merged,5127.97,1,0,1,6825,3,7
+sindresorhus/awesome,Add RTL,closed,2990.16,1,0,1,7419,1,4
+sindresorhus/awesome,Add Spring Boot,closed,3060.06,1,0,1,6963,2,6
+sindresorhus/awesome,Add parenting,closed,3141.35,1,0,1,7043,1,5
+sindresorhus/awesome,Install meshmap workflow,closed,1.57,34,0,1,6963,1,2
+sindresorhus/awesome,Add Processing langage ,closed,751.68,0,0,0,7098,1,16
+sindresorhus/awesome,Add Generative AI Companies,closed,3407.64,1,0,1,7506,1,11
+sindresorhus/awesome,Add Microsoft Sentinel,closed,4310.95,1,0,1,3587,4,9
+sindresorhus/awesome,Add Steam Deck,merged,1086.4,1,0,1,6994,2,8
+sindresorhus/awesome,Add Stock Trading,merged,4702.9,1,0,1,3444,3,8
+sindresorhus/awesome,Add Prompt Injection,merged,1819.47,1,0,1,7153,2,5
+sindresorhus/awesome,Add Neuromorphic,closed,2832.3,1,0,1,7637,1,6
+sindresorhus/awesome,Create Morena,closed,7.88,30,0,1,8960,1,0
+sindresorhus/awesome,Add Neuromorphic,closed,450.57,1,4,1,7637,1,13
+sindresorhus/awesome,add official docker awesome-compose,closed,4449.95,0,0,0,6950,5,6
+sindresorhus/awesome,Add Bluetooth Low Energy,merged,5684.44,1,0,1,7097,1,10
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 46.0.1 to 46.0.3,merged,32.9,1,1,1,5489,1,1
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 45.0.5 to 46.0.1,merged,58.06,1,1,1,6674,1,1
+EbookFoundation/free-programming-books,"Add ""Science, Programming, Art and Radioelectronics Club"" (SPARC) book",merged,8.39,7,0,2,1309,2,1
+EbookFoundation/free-programming-books,Added new HTML and CSS Course ,merged,4.61,1,0,1,755,2,1
+EbookFoundation/free-programming-books,[Add] TypeScript Baby By Lwin Moe Paing in books/free-programming-books-my.md,merged,25.16,6,0,1,1067,5,0
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 45.0.5 to 45.0.7,closed,1008.03,1,1,1,9079,1,2
+EbookFoundation/free-programming-books,"Add ""Python para Matemáticos"" book",merged,43.36,1,0,1,869,1,0
+EbookFoundation/free-programming-books,chore(deps): bump eps1lon/actions-label-merge-conflict from 3.0.2 to 3.0.3,merged,1738.03,1,1,1,2348,1,0
+EbookFoundation/free-programming-books,linter solved,closed,1957.37,222,255,1,612,1,2
+EbookFoundation/free-programming-books,Update free-programming-books-bn.md,merged,34.9,1,0,1,632,1,0
+EbookFoundation/free-programming-books,Update check-urls.yml,closed,12.24,34,57,1,1819,1,0
+EbookFoundation/free-programming-books,feat: testing book to added to ```books/free-programming-books-subjects.md```,merged,2.17,1,0,1,1094,1,2
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 45.0.4 to 45.0.5,merged,78.37,1,1,1,6084,1,0
+EbookFoundation/free-programming-books,Added Playground for different languages,merged,327.52,10,2,1,641,3,19
+EbookFoundation/free-programming-books,Add Succeed In Software Book,merged,17.14,1,0,1,1128,2,1
+EbookFoundation/free-programming-books,added react-router to cheatsheets,merged,78.76,1,0,1,612,1,2
+EbookFoundation/free-programming-books,Added Evidence Based Software Engineering Book,merged,19.81,1,0,1,707,1,0
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 45.0.3 to 45.0.4,merged,12.36,1,1,1,7474,2,0
+EbookFoundation/free-programming-books,Add AI Safety for Fleshy Humans,merged,27.21,1,0,1,1090,3,0
+EbookFoundation/free-programming-books,Add How to Think Like a Computer Scientist Learning with Python 3 (Ao…,merged,23.01,1,0,1,1123,2,4
+EbookFoundation/free-programming-books,Added License,merged,20.92,1,1,1,562,2,1
+EbookFoundation/free-programming-books,Update Dead Links for Compiler Design Books,merged,24.4,2,2,1,194,3,1
+EbookFoundation/free-programming-books,Added 3 courses to the `free-courses-hi.md` file.,closed,1278.92,4,1,1,1048,1,1
+EbookFoundation/free-programming-books,Added 5 more Next.js courses to free-courses-hi.md,merged,37.88,5,0,1,1181,3,12
+EbookFoundation/free-programming-books,Added quatum computing books,closed,18.43,0,0,0,1485,1,1
+EbookFoundation/free-programming-books,Added a free Course in free-courses-hi.md,merged,28.7,1,0,1,846,1,0
+EbookFoundation/free-programming-books,Added Ezhil Programming Book In Tamil Language,merged,88.0,6,0,1,728,2,0
+EbookFoundation/free-programming-books,CC Licenses added in PT-BR books section,merged,17.89,4,4,1,1110,2,2
+EbookFoundation/free-programming-books,Fixed Existing Tamil Language Books file,merged,11.21,7,7,1,907,3,1
+EbookFoundation/free-programming-books,Added English book (Learn Java for FTC),merged,15.84,1,0,1,1055,1,0
+EbookFoundation/free-programming-books,Adding git course in PT-BR section,merged,27.91,1,0,1,646,2,0
+EbookFoundation/free-programming-books,Added Nextjs Resources in free-courses-ur.md,merged,7.57,6,0,1,708,3,1
+EbookFoundation/free-programming-books,Added Complete NodeJS + ExpressJS + MongoDB Course by Complete Coding by Prashant Sir to free-courses-hi.md,merged,28.68,1,0,1,695,3,1
+EbookFoundation/free-programming-books,Added Design and Analysis of Algorithms course by THE GATEHUB to free-courses-hi.md,merged,9.59,1,0,1,631,1,1
+EbookFoundation/free-programming-books,Update free-courses-te.md,merged,10.47,1,0,1,746,2,1
+EbookFoundation/free-programming-books,"Added ruby, ruby on rails and rust hindi tutorials in free-courses-hindi.md (request review from urdu speaker)",merged,124.29,4,0,1,721,6,6
+EbookFoundation/free-programming-books,Adding (CC BY) licenses in GO (PT-BR) section,merged,23.17,3,3,1,948,2,0
+EbookFoundation/free-programming-books,Update free-courses-ml.md,merged,48.12,2,1,1,745,2,0
+EbookFoundation/free-programming-books,Update free-courses-de.md,merged,27.31,1,0,1,613,1,2
+EbookFoundation/free-programming-books,bangla programing books added,merged,49.67,7,0,1,632,2,4
+EbookFoundation/free-programming-books,Update free-courses-zh.md,merged,30.29,1,1,1,688,1,1
+EbookFoundation/free-programming-books,"Added C, C# and C++ pdfs ",closed,876.48,3,0,1,25,1,1
+EbookFoundation/free-programming-books,Added Linux books in Tamil language,merged,58.83,7,0,1,734,2,2
+EbookFoundation/free-programming-books,Add License Information to 'Open Data Structures (In C++)',merged,8.48,2,2,1,1198,1,0
+EbookFoundation/free-programming-books,Update for ded links - kn. and uk.,merged,14.98,1,3,2,670,1,0
+EbookFoundation/free-programming-books,Adding (CC BY-NC-ND) license,merged,21.95,1,2,1,840,3,1
+EbookFoundation/free-programming-books,Update free-programming-books-ta.md,closed,27.38,8,2,1,807,3,16
+EbookFoundation/free-programming-books,[Updated] Kotlin Course,merged,24.54,1,0,1,688,1,2
+EbookFoundation/free-programming-books,[PR] Add DevOps and Software Testing Essential books in Tamil,merged,25.92,12,0,1,1310,2,1
+EbookFoundation/free-programming-books,Update free-programming-books-langs.md,merged,99.16,4,0,1,1037,3,3
+EbookFoundation/free-programming-books,Added Python book resource,merged,38.16,1,0,1,838,2,1
+public-apis/public-apis,Update README.md,closed,791.9,1,1,1,633,1,0
+public-apis/public-apis,Add quoterism.com,closed,1463.14,1,0,1,514,1,0
+public-apis/public-apis,Remove Forismatic API,closed,1746.85,0,1,1,514,2,2
+public-apis/public-apis,add FatsecretPlatform API -- Added additional Food & Drink API to the list,closed,1317.33,57,52,1,514,1,0
+public-apis/public-apis,Studio Ghibli API link updated,closed,2763.22,1,1,1,37,1,1
+public-apis/public-apis,Update README.md with new contribution,closed,17.65,1,0,1,514,2,0
+public-apis/public-apis,Adding Open Government of Kazakhstan,closed,230.23,1,0,1,514,1,0
+public-apis/public-apis,"Updating the old, corrupted link for Excuser API to the new working link.",closed,1398.68,1,1,1,514,1,1
+public-apis/public-apis,Fix broken link to CONTRIBUTING.md in PULL_REQUEST_TEMPLATE.md,closed,1182.07,1,1,1,623,1,2
+public-apis/public-apis,Fix Google Maps link in README,closed,3050.14,1,1,1,514,1,0
+public-apis/public-apis,"added postman logos, removed deadlinks, created popular APIs and Cate…",merged,1097.95,347,248,2,514,3,0
+public-apis/public-apis,Update README.md,closed,3383.25,1,1,1,514,1,1
+public-apis/public-apis,Create asd,closed,34.45,1,0,1,514,1,0
+public-apis/public-apis,Update test_of_push_and_pull.yml,closed,38.91,1,0,1,514,1,0
+public-apis/public-apis,Update url for Inspiration in Personality,closed,9479.88,1,1,1,514,2,1
+public-apis/public-apis,Add Databento API,closed,7172.58,3,0,1,514,1,2
+public-apis/public-apis,Add Kite API,closed,133.1,1,0,1,514,1,1
