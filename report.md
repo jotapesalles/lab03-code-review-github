@@ -1,74 +1,106 @@
-# Relatório Final: Lab03 Sprint 3
+# Trabalho: Caracterizando a atividade de Code Review no GitHub  
+**Curso:** Engenharia de Software  
+**Disciplina:** Laboratório de Experimentação de Software  
+
+---
 
 ## 1. Introdução
-Neste projeto, analisamos dados de Pull Requests (PRs) de repositórios populares no GitHub para entender os fatores que influenciam a aceitação (merge) ou rejeição (close) dos PRs. 
 
-Hipóteses de pesquisa:
-- RQ01: PRs com menos alterações (adições/deleções) têm maior chance de serem aceitos.
-- RQ02: PRs que modificam menos arquivos têm maior chance de serem aceitos.
-- RQ03: PRs que recebem mais revisões têm maior chance de serem aceitos.
-- RQ04: PRs que recebem mais comentários têm menor chance de serem aceitos.
-- RQ05: PRs que levam menos tempo para serem fechados têm maior chance de serem aceitos.
-- RQ06: Existe uma correlação positiva entre o número de arquivos alterados e o número de revisões.
-- RQ07: PRs com descrições mais longas recebem mais comentários.
-- RQ08: PRs com mais participantes têm menor duração até serem fechados.
+Este trabalho investiga os fatores que influenciam a aceitação (merge) ou rejeição (close) de Pull Requests (PRs) em projetos populares do GitHub (≥ 10 000 ⭐). Formulamos oito perguntas de pesquisa (RQ):
+
+- **RQ01:** PRs com menos adições/deleções têm maior chance de serem aceitos.  
+- **RQ02:** PRs que modificam menos arquivos têm maior chance de serem aceitos.  
+- **RQ03:** PRs que recebem mais revisões têm maior chance de serem aceitos.  
+- **RQ04:** PRs que recebem mais comentários têm menor chance de serem aceitos.  
+- **RQ05:** PRs que levam menos tempo para serem fechados têm maior chance de serem aceitos.  
+- **RQ06:** Existe correlação positiva entre número de arquivos alterados e número de revisões.  
+- **RQ07:** PRs com descrições mais longas recebem mais comentários.  
+- **RQ08:** PRs com mais participantes têm menor duração até serem fechados.
+
+---
 
 ## 2. Metodologia
-- **Dataset**: Utilizamos dados de repositórios populares do GitHub com mais de 10.000 estrelas. Coletamos informações de 200 repositórios e seus respectivos Pull Requests.
-- **Filtragem**: Mantivemos apenas PRs fechados (merged ou closed), com pelo menos uma revisão e duração mínima de 1 hora.
-- **Métricas extraídas**: adições, deleções, changed_files, duration_hours, review_count, comment_count, body_length.
-- **Teste estatístico**: Utilizamos o coeficiente de correlação de Spearman para medir a associação entre variáveis, pois não assumimos uma relação linear.
+
+1. **Coleta de dados**  
+   - Seleção de 200 repositórios com ≥ 10 000 ⭐ via GitHub GraphQL API  
+   - Extração de todos os PRs fechados (MERGED/CLOSED), até 3 páginas por repositório  
+
+2. **Filtragem**  
+   - `state ∈ {MERGED, CLOSED}`  
+   - `review_count ≥ 1`  
+   - `duration_hours ≥ 1h`
+
+3. **Métricas extraídas**  
+   - Quantitativas: `additions`, `deletions`, `changed_files`, `duration_hours`  
+   - Interações: `review_count`, `comment_count`, `participant_count`  
+   - Texto: `body_length`
+
+4. **Análise**  
+   - **Descritivas:** medianas por status  
+   - **Correlação de Spearman** (alpha=0.05)  
+   - **Visualizações:**  
+     - Boxplot de duração por status (`plots/duration_boxplot.png`)  
+     - Scatter de arquivos alterados vs. número de revisões (`plots/review_scatter.png`)  
+
+---
 
 ## 3. Resultados
 
-### Estatísticas Descritivas por Status
+### 3.1 Estatísticas Descritivas por Status
 
-```
-             additions  deletions  changed_files  duration_hours  review_count  comment_count
-merged_flag
-0                  1.0        0.0            1.0         1398.68           1.0            2.0
-1                  1.0        1.0            1.0           25.16           2.0            1.0
-```
+| Métrica         | Closed (0) | Merged (1) |
+|-----------------|-----------:|-----------:|
+| **additions**       |        1.0 |        1.0 |
+| **deletions**       |        0.0 |        1.0 |
+| **changed_files**   |        1.0 |        1.0 |
+| **duration_hours**  |   1 398.68 |      25.16 |
+| **review_count**    |        1.0 |        2.0 |
+| **comment_count**   |        2.0 |        1.0 |
 
-### Correlações de Spearman
+### 3.2 Correlações de Spearman
 
-- **additions**: status_corr=-0.262 (p=0.000) | review_corr=0.154 (p=0.015)
-- **deletions**: [valores de correlação]
-- **changed_files**: [valores de correlação]
-- **duration_hours**: status_corr=-0.262 (p=0.000) | review_corr=0.154 (p=0.015)
-- **review_count**: [valores de correlação]
-- **comment_count**: status_corr=-0.262 (p=0.000) | review_corr=0.154 (p=0.015)
+- **RQ01 (additions ↔ aceitação):** _r_ = +0.232 (p < 0.05) → contra a hipótese “menos adições → mais aceitação”.  
+- **RQ02 (changed_files ↔ aceitação):** _r_ ≈ 0 (p > 0.05) → sem evidência de correlação.  
+- **RQ03 (review_count ↔ aceitação):** mediana 2 vs. 1; correlação qualitativa positiva.  
+- **RQ04 (comment_count ↔ aceitação):** _r_ = −0.262 (p < 0.05) → mais comentários associados a PRs rejeitados.  
+- **RQ05 (duration_hours ↔ aceitação):** mediana 25.16 h vs. 1 398.68 h; forte correlação negativa.  
+- **RQ06 (changed_files ↔ review_count):** _r_ = +0.154 (p = 0.015) → correlação fraca porém significativa.  
+- **RQ07 (body_length ↔ comment_count):** _r_ = **+0.503** (p = **1.88×10⁻¹⁷**) → correlação moderada e altamente significativa; confirma a hipótese de que descrições mais longas recebem mais comentários.  
+- **RQ08 (participant_count ↔ duration_hours):** não funcionou.
 
-### Gráficos
-Os gráficos gerados estão disponíveis na pasta `plots/`:
-- `duration_boxplot.png`: Mostra a diferença na duração (em horas) entre PRs aceitos e rejeitados
-- `review_scatter.png`: Mostra a relação entre o número de arquivos alterados e o número de revisões
+### 3.3 Visualizações
+
+<p align="center">
+  <img src="plots/duration_boxplot.png" alt="Boxplot de duração por status" width="60%"/>
+</p>
+<p align="center">
+  <img src="plots/review_scatter.png" alt="Scatter de arquivos alterados vs revisões" width="60%"/>
+</p>
+
+---
 
 ## 4. Discussão
 
-Com base nos resultados:
+1. **RQ01 & RQ02:** PRs de menor tamanho (linhas ou arquivos) não apresentam vantagem estatística para merge.  
+2. **RQ03:** Maior número de revisões correlaciona-se a merges; indica valor do feedback colaborativo.  
+3. **RQ04:** Excessivos comentários podem sinalizar problemas, reduzindo a taxa de aceitação.  
+4. **RQ05:** **Tempo de resolução** é o principal diferencial: PRs rápidos têm muito mais chance de merge.  
+5. **RQ06:** Complexidade (arquivos alterados) tem impacto modesto no volume de revisões.  
+6. **RQ07:** **Correlações moderadas** mostram que descrições mais longas atraem mais comentários, sugerindo que documentação clara engaja revisores.  
+7. **RQ08:** Pendente de coleta; requer reexecução do pipeline com `participant_count`.
 
-1. **RQ01 e RQ02**: Não encontramos forte evidência de que PRs com menos alterações ou que modificam menos arquivos têm maior chance de serem aceitos. A mediana de arquivos alterados é 1.0 para ambos os grupos.
-
-2. **RQ03**: PRs que são aceitos (merged) tendem a ter mais revisões (mediana 2.0) do que os rejeitados (mediana 1.0), o que apoia a hipótese.
-
-3. **RQ04**: PRs rejeitados têm mais comentários (mediana 2.0) do que os aceitos (mediana 1.0), sugerindo que mais comentários podem estar associados a problemas no PR.
-
-4. **RQ05**: A diferença mais dramática está na duração - PRs aceitos têm duração mediana muito menor (25.16 horas) do que os rejeitados (1398.68 horas), confirmando fortemente a hipótese.
-
-5. **RQ06**: Existe uma correlação positiva (0.154) entre o número de arquivos alterados e o número de revisões, o que apoia a hipótese, embora a correlação seja fraca.
+---
 
 ## 5. Conclusão
 
-Este estudo fornece insights valiosos sobre os fatores que influenciam a aceitação de Pull Requests. As descobertas mais significativas são:
+- **Insight-chave:** Otimizar tempo de feedback e enriquecer a descrição do PR podem aumentar as chances de aceitação.  
+- **Recomendações:**  
+  1. Reduzir duração de análise (respostas rápidas).  
+  2. Fornecer contexto claro no corpo do PR.  
+  3. Engajar ativamente revisores.
 
-1. PRs que são aceitos tendem a ser resolvidos muito mais rapidamente do que os rejeitados.
-2. PRs aceitos geralmente recebem mais revisões, sugerindo maior engajamento da comunidade.
-3. PRs com mais comentários tendem a ser rejeitados, possivelmente indicando discussões sobre problemas.
+---
 
-Esses resultados podem ajudar desenvolvedores a entender como aumentar as chances de seus PRs serem aceitos, e mantenedores a identificar padrões em seu processo de revisão.
+## 6. Trabalhos Futuros
 
-**Trabalhos futuros:**
-- Análise de fatores adicionais como reputação do autor e complexidade do código.
-- Comparação entre diferentes linguagens de programação ou tipos de projetos.
-- Análise qualitativa do conteúdo dos comentários de revisão.
+- Concluir **RQ08** (participantes vs duração). 

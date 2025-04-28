@@ -129,7 +129,3 @@ Este script:
   ```
 
   Após ativar o ambiente virtual, instale as dependências conforme mencionado na seção de Pré-requisitos.
-
-## Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE). 

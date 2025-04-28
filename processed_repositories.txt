@@ -2,3 +2,6 @@ freeCodeCamp/freeCodeCamp
 codecrafters-io/build-your-own-x
 sindresorhus/awesome
 EbookFoundation/free-programming-books
+public-apis/public-apis
+jwasham/coding-interview-university
+kamranahmedse/developer-roadmap
