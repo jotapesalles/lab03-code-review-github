@@ -1,40 +1,44 @@
-import requests
-import csv
+# collect_repositories.py
+
 import os
+import csv
+import requests
 from time import sleep
 from dotenv import load_dotenv
 
+# Carrega variáveis de ambiente de .env
 load_dotenv()
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {
-    "Authorization": f"token {GITHUB_TOKEN}",
-    "Accept": "application/vnd.github.v3+json"
+    "Authorization": f"Bearer {GITHUB_TOKEN}",
+    "Accept": "application/vnd.github.v4+json"
 }
 API_URL = "https://api.github.com/graphql"
 CHECKPOINT_FILE = "cursor_checkpoint.txt"
 OUTPUT_CSV = "repositories.csv"
-    
-def run_query(query, max_retries=5, retry_delay=3):
-    attempt = 1
-    while attempt <= max_retries:
-        print(f"📡 Executando query GraphQL (tentativa {attempt}/{max_retries})...")
-        response = requests.post(API_URL, json={'query': query}, headers=HEADERS)
-        if response.status_code == 200:
-            return response.json()
-        else:
-            print(f"⚠️ Erro na query ({response.status_code}): {response.text}")
-            print(f"⏳ Esperando {retry_delay} segundos antes de tentar novamente...\n")
-            sleep(retry_delay)
-            attempt += 1
-    raise Exception(f"❌ Falha após {max_retries} tentativas.")
 
-def save_repo_to_csv(repo, filename):
-    file_exists = os.path.exists(filename)
-    with open(filename, "a", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
+def run_query(query, max_retries=5, retry_delay=3):
+    """Executa a query GraphQL com retries."""
+    for attempt in range(1, max_retries+1):
+        print(f"📡 Execução GraphQL (tentativa {attempt}/{max_retries})...")
+        resp = requests.post(API_URL, json={"query": query}, headers=HEADERS, timeout=30)
+        if resp.status_code == 200:
+            return resp.json()
+        print(f"⚠️ Erro {resp.status_code}: {resp.text}")
+        if resp.status_code >= 500:
+            sleep(retry_delay)
+        else:
+            resp.raise_for_status()
+    raise Exception("❌ Falha após múltiplas tentativas de GraphQL.")
+
+def save_repo_to_csv(owner, name, stars, url):
+    """Anexa uma linha ao repositories.csv (cria cabeçalho se preciso)."""
+    file_exists = os.path.exists(OUTPUT_CSV)
+    with open(OUTPUT_CSV, "a", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
         if not file_exists:
             writer.writerow(["owner", "name", "stars", "url"])
-        writer.writerow([repo["owner"], repo["name"], repo["stars"], repo["url"]])
+        writer.writerow([owner, name, stars, url])
 
 def save_cursor(cursor):
     with open(CHECKPOINT_FILE, "w", encoding="utf-8") as f:
@@ -43,92 +47,70 @@ def save_cursor(cursor):
 def load_cursor():
     if os.path.exists(CHECKPOINT_FILE):
         with open(CHECKPOINT_FILE, "r", encoding="utf-8") as f:
-            cursor = f.read().strip()
-            return cursor if cursor else None
+            c = f.read().strip()
+            return c if c else None
     return None
 
 def get_popular_repositories(max_repos=200):
-    repos = []
     cursor = load_cursor()
-    total_fetched = 0
+    added = 0
+
+    # Conta quantos já foram salvos
     if os.path.exists(OUTPUT_CSV):
         with open(OUTPUT_CSV, newline="", encoding="utf-8") as f:
-            existing_repos = list(csv.reader(f))
-            current_count = len(existing_repos) - 1  # Desconta o cabeçalho
+            current = len(list(csv.reader(f))) - 1
     else:
-        current_count = 0
-        print(f"🗃️ Repositórios já salvos: {current_count}")
-    if current_count >= max_repos:
-        print(f"✅ Já existem {current_count} repositórios no CSV. Nada a fazer.")
-        return []
+        current = 0
 
-    remaining = max_repos - current_count
-    print(f"Faltam buscar {remaining} repositórios para completar {max_repos}.\n")
-    
-    print(f"Iniciando coleta de até {max_repos} repositórios com >10000 estrelas...\n")
+    print(f"📦 Já há {current} repositórios no CSV.")
+    if current >= max_repos:
+        print("✅ Limite atingido. Nada a fazer.")
+        return
 
-    while len(repos) + current_count < max_repos:
-        after = f', after: "{cursor}"' if cursor else ''
-        print(f"🔄 Buscando página de repositórios (cursor: {cursor})")
-
-        query = f"""
+    while current + added < max_repos:
+        after = f', after: "{cursor}"' if cursor else ""
+        query = f'''
         {{
           search(query: "stars:>10000", type: REPOSITORY, first: 10{after}) {{
-            pageInfo {{
-              hasNextPage
-              endCursor
-            }}
+            pageInfo {{ hasNextPage endCursor }}
             edges {{
               node {{
                 ... on Repository {{
                   name
                   owner {{ login }}
                   stargazerCount
-                  pullRequests(states: [CLOSED, MERGED]) {{
-                    totalCount
-                  }}
+                  pullRequests(states: [CLOSED, MERGED]) {{ totalCount }}
                   url
                 }}
               }}
             }}
           }}
         }}
-        """
+        '''
+        data = run_query(query)["data"]["search"]
+        for edge in data["edges"]:
+            node = edge["node"]
+            owner = node["owner"]["login"]
+            name = node["name"]
+            stars = node["stargazerCount"]
+            pr_count = node["pullRequests"]["totalCount"]
+            url = node["url"]
 
-        try:
-            result = run_query(query)
-        except Exception as e:
-            print(f"❌ Erro ao executar a query: {e}")
-            print("⚠️ Salvando progresso e encerrando.")
-            break
-
-        search_data = result['data']['search']
-        for edge in search_data['edges']:
-            node = edge['node']
-            total_fetched += 1
-            print(f"🔍 Verificando ⭐ > 100: {node['owner']['login']}/{node['name']} ({node['stargazerCount']} ⭐)")
-            if node['pullRequests']['totalCount'] >= 100:
-                print(f"✅ Adicionado: {node['owner']['login']}/{node['name']} - {node['pullRequests']['totalCount']} PRs")
-                repo = {
-                    'name': node['name'],
-                    'owner': node['owner']['login'],
-                    'stars': node['stargazerCount'],
-                    'url': node['url']
-                }
-                repos.append(repo)
-                save_repo_to_csv(repo, OUTPUT_CSV)
-                if len(repos) >= max_repos:
+            if pr_count >= 100:
+                print(f"➕ Salvando: {owner}/{name} ({stars} ⭐, {pr_count} PRs)")
+                save_repo_to_csv(owner, name, stars, url)
+                added += 1
+                if current + added >= max_repos:
                     break
 
-        cursor = search_data['pageInfo']['endCursor']
+        cursor = data["pageInfo"]["endCursor"]
         save_cursor(cursor)
-        if not search_data['pageInfo']['hasNextPage']:
+        if not data["pageInfo"]["hasNextPage"]:
             print("🚧 Fim da paginação.")
             break
         sleep(1)
 
-    print(f"\n📦 Total de repositórios adicionados nesta execução: {len(repos)}")
-    return repos
+    print(f"✅ Total adicionados agora: {added}")
 
-# Execução principal
-get_popular_repositories(max_repos=200)
+if __name__ == "__main__":
+    get_popular_repositories(max_repos=200)

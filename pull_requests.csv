@@ -6376,3 +6376,229 @@ jaywcjlove/awesome-mac,Add Magic Switch,2024-07-22T20:03:34Z,2025-03-29T17:48:30
 jaywcjlove/awesome-mac,Add CodeMenu,2024-06-30T13:26:38Z,2024-06-30T15:07:13Z,merged,1.68,1,0,1,1619,1,0
 jaywcjlove/awesome-mac,Add One Task,2024-05-31T17:42:51Z,2024-05-31T20:07:19Z,merged,2.41,1,0,1,608,2,0
 jaywcjlove/awesome-mac,MakeItHome,2024-05-28T12:15:57Z,2024-05-28T14:26:05Z,merged,2.17,1,0,1,1764,1,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): blank indicators in English challenges,2025-05-08T17:04:40Z,2025-05-08T19:48:17Z,merged,2.73,3,3,3,625,2,0,2
+freeCodeCamp/freeCodeCamp,chore: remove oldschema.prisma,2025-05-08T08:26:44Z,2025-05-08T09:57:48Z,merged,1.52,0,1101,1,378,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): add trim to remove whitespaces in url,2025-05-08T07:45:15Z,2025-05-08T10:26:41Z,merged,2.69,1,1,1,275,2,0,2
+freeCodeCamp/freeCodeCamp,fix(learn): remove sentence in transcript,2025-05-07T20:11:22Z,2025-05-07T23:17:58Z,merged,3.11,0,2,1,417,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): update step 33 of cat painting workshop to use assert.equal,2025-05-07T18:58:06Z,2025-05-07T20:33:12Z,merged,1.58,4,4,1,1375,2,0,2
+freeCodeCamp/freeCodeCamp,chore: update to mongodb 8 in CI,2025-05-07T15:40:49Z,2025-05-07T19:45:53Z,merged,4.08,5,5,3,259,2,0,2
+freeCodeCamp/freeCodeCamp,"chore(i18n,learn): update i18n-curriculum submodule",2025-05-07T14:41:15Z,2025-05-07T20:53:23Z,merged,6.2,1,1,1,47,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): prevent hardcoding in addition functions,2025-05-06T17:44:28Z,2025-05-07T14:54:23Z,merged,21.17,12,0,2,548,14,2,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): Make calculator tests less restrictive,2025-05-06T13:51:39Z,2025-05-06T21:51:38Z,merged,8.0,12,6,6,275,3,1,3
+freeCodeCamp/freeCodeCamp,fix(api): update logging,2025-05-06T11:59:50Z,2025-05-06T15:16:36Z,merged,3.28,170,126,21,184,1,4,3
+freeCodeCamp/freeCodeCamp,chore(curriculum): refactor tests in the workshop-cat-painting steps 40-41,2025-05-06T11:51:33Z,2025-05-06T17:24:40Z,merged,5.55,10,10,2,569,4,2,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): update cat painting workshop to use specific assert methods step 22,2025-05-06T09:00:36Z,2025-05-06T23:39:36Z,merged,14.65,24,12,1,275,3,2,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): remove pseudo class from business card lab,2025-05-05T19:30:41Z,2025-05-08T15:55:36Z,merged,68.42,2,14,1,275,4,0,2
+freeCodeCamp/freeCodeCamp,chore(curriculum): Cat painting workshop updated to use specific assert methods step 36-37,2025-05-05T18:48:22Z,2025-05-06T08:47:31Z,merged,13.99,7,7,2,387,2,2,3
+freeCodeCamp/freeCodeCamp,"chore(i18n,learn): update i18n-curriculum submodule",2025-05-05T14:37:29Z,2025-05-05T15:44:37Z,merged,1.12,1,1,1,47,2,0,2
+freeCodeCamp/freeCodeCamp,"chore(i18n,client): processed translations",2025-05-05T12:26:13Z,2025-05-05T15:05:17Z,merged,2.65,70,0,10,45,2,0,2
+freeCodeCamp/freeCodeCamp,fix(a11y): hide Fail icon from screen readers,2025-05-05T10:55:27Z,2025-05-05T12:30:20Z,merged,1.58,2,1,2,1234,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): typos in core JS fundamentals lecture,2025-05-05T00:36:41Z,2025-05-05T04:08:59Z,merged,3.54,3,3,2,275,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): correct aria-label hint in music player step 43,2025-05-04T04:16:03Z,2025-05-05T07:25:43Z,merged,27.16,1,1,1,709,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): replace assert with assert.equal in cat-ear test hints,2025-05-03T15:44:40Z,2025-05-05T05:32:31Z,closed,37.8,2,2,1,457,5,2,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): update assertion syntax for CSS properties in cat painting,2025-05-03T13:30:56Z,2025-05-04T08:30:15Z,merged,18.99,5,5,5,294,2,0,2
+freeCodeCamp/freeCodeCamp,fix: replace assert strict equality with assert.equal in workshop-cat-painting challenge (#60124),2025-05-03T05:50:30Z,2025-05-04T08:31:18Z,closed,26.68,37512,3,6,645,2,3,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): assert methods in cat painting step 29,2025-05-02T23:03:56Z,2025-05-05T06:24:17Z,merged,55.34,2,2,1,275,4,1,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in step 27 of music player workshop,2025-05-02T21:24:25Z,2025-05-02T22:40:45Z,merged,1.27,1,1,1,307,2,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in music player workshop step 3,2025-05-02T18:06:08Z,2025-05-02T23:07:34Z,merged,5.02,1,1,1,426,2,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): improve Crowdin wording for workshop-recipe-ingredient-converter,2025-05-02T08:56:22Z,2025-05-07T21:01:13Z,merged,132.08,1,1,1,818,4,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): improve Crowdin compatibility for workshop-nutritional-label,2025-05-02T08:22:18Z,2025-05-02T15:40:59Z,merged,7.31,3,3,1,830,4,1,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): instructions typo in learn about speculation and requests task 148,2025-05-02T06:13:53Z,2025-05-02T16:44:15Z,merged,10.51,1,1,1,275,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): logical typo in clarify information,2025-05-02T03:38:49Z,2025-05-02T15:50:22Z,merged,12.19,1,1,1,275,2,0,2
+freeCodeCamp/freeCodeCamp,feat(curriculum): adding python loops and sequences quiz questions,2025-05-01T23:49:21Z,2025-05-08T16:41:31Z,merged,160.87,183,100,1,259,5,1,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): assert-equal-workshop-cat-painting-left,2025-05-01T23:19:09Z,2025-05-02T06:13:57Z,closed,6.91,4,2,1,479,1,2,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): updating asserts for cat painting workshop step 24,2025-05-01T22:43:46Z,2025-05-02T06:13:40Z,closed,7.5,2,2,1,275,1,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): update cat painting workshop step 24 to use assert method,2025-05-01T20:55:43Z,2025-05-02T06:41:18Z,merged,9.76,2,2,1,275,2,2,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): lack of support of MathJax in FSD cert,2025-05-01T20:25:50Z,2025-05-02T08:15:27Z,merged,11.83,2,1,1,498,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): change generic assert to use assert.equal in workshop cat painting curriculum,2025-05-01T19:18:09Z,2025-05-02T08:31:38Z,merged,13.22,3,3,1,489,3,2,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): replace Unicode ƒ with standard f in Map object lecture,2025-05-01T09:48:51Z,2025-05-01T11:46:01Z,merged,1.95,1,1,1,275,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): FSD-replace assert with assert.equal in cat painting workshop,2025-04-30T22:05:22Z,2025-05-01T05:11:05Z,merged,7.1,3,3,1,610,2,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): Reword adjacent code elements for improved Crowdin compatibility,2025-04-30T19:52:16Z,2025-05-02T14:53:01Z,merged,43.01,3,3,3,434,4,0,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): updated assert methods,2025-04-30T19:31:54Z,2025-05-01T22:30:45Z,merged,26.98,6,6,1,291,3,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): improve wording for Crowdin compatibility,2025-04-30T14:10:28Z,2025-05-01T12:07:56Z,merged,21.96,6,6,5,279,4,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): replace assert with assert.equal in cat painting workshop,2025-04-30T13:59:21Z,2025-05-01T04:40:21Z,closed,14.68,3,3,1,488,1,6,5
+freeCodeCamp/freeCodeCamp,chore(curriculum): add string examples to js review,2025-04-30T13:33:42Z,2025-04-30T19:16:32Z,merged,5.71,78,10,1,330,2,0,2
+freeCodeCamp/freeCodeCamp,"chore(i18n,client): processed translations",2025-04-30T12:26:42Z,2025-05-01T05:20:23Z,merged,16.89,90,10,10,45,2,0,2
+freeCodeCamp/freeCodeCamp,refactor(client): use shared Module interface,2025-04-30T09:12:10Z,2025-04-30T19:52:10Z,merged,10.67,1,9,1,353,2,0,2
+freeCodeCamp/freeCodeCamp,chore(curriculum): update cat painting workshop specific assert methods,2025-04-30T06:36:05Z,2025-04-30T09:33:43Z,merged,2.96,2,2,1,275,2,1,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): typos and spacing in lectures and reviews,2025-04-30T00:05:13Z,2025-05-06T05:16:29Z,merged,149.19,22,22,9,275,11,5,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): updated challenge tests,2025-04-29T22:24:26Z,2025-04-30T07:38:40Z,merged,9.24,4,4,1,533,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): better wording in workshop-todo-app,2025-04-29T21:11:03Z,2025-05-01T15:39:57Z,merged,42.48,1,1,1,279,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): added missing html boilerplate,2025-04-29T16:05:39Z,2025-04-30T08:49:51Z,merged,16.74,11,1,1,468,5,4,5
+freeCodeCamp/freeCodeCamp,fix(curriculum): update assertion methods in cat painting workshop,2025-04-29T13:22:54Z,2025-04-29T18:28:50Z,merged,5.1,2,2,2,425,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): updating regex in email masker lab to accept all forms of valid email addresses ,2025-04-29T12:25:49Z,2025-04-29T22:22:23Z,merged,9.94,2,1,1,259,2,2,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): Update to wording that crowdin likes in different workshops.,2025-04-29T11:52:46Z,2025-05-01T05:27:45Z,merged,41.58,3,3,3,390,4,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): use assert.exists and assert.equal in cat painting workshop,2025-04-29T09:12:17Z,2025-04-29T10:38:10Z,closed,1.43,2,2,1,450,1,1,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): improve wording for clarity in step 4 instructions /workshop-reusable-mega-navbar,2025-04-29T08:56:55Z,2025-05-04T08:33:16Z,merged,119.61,2,2,1,277,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in lecture about styling special input elements,2025-04-29T08:17:19Z,2025-04-29T11:07:44Z,merged,2.84,1,1,1,419,2,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): resolves visible answer in question 28,2025-04-29T08:12:28Z,2025-04-29T17:25:51Z,merged,9.22,10,10,1,275,3,2,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): update wording for workshop registration form,2025-04-29T04:29:46Z,2025-04-29T20:41:19Z,merged,16.19,2,2,2,277,3,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): improve wording for clarity for workshop-city-skyline,2025-04-29T04:06:30Z,2025-04-29T09:05:51Z,closed,4.99,2,2,2,277,1,0,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): update wording to improve Crowdin compatibility,2025-04-29T02:43:29Z,2025-05-02T07:21:24Z,closed,76.63,6,556,4,575,3,3,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): update fcc author wording,2025-04-29T02:18:04Z,2025-05-02T14:03:55Z,merged,83.76,7,7,6,451,5,8,4
+freeCodeCamp/freeCodeCamp,feat(ui): test indicator icon,2025-04-29T01:56:56Z,2025-05-08T09:49:09Z,merged,223.87,39,32,3,434,4,4,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): crowdin wording for page of playing cards lab,2025-04-28T21:32:09Z,2025-04-30T08:18:46Z,merged,34.78,1,1,1,279,4,2,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): crowdin wording for real time counter lab,2025-04-28T21:19:03Z,2025-04-29T10:32:51Z,merged,13.23,1,1,1,279,4,2,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): Make Crowdin like the flappy penguin,2025-04-28T21:15:20Z,2025-05-02T14:57:14Z,merged,89.7,13,13,13,319,17,0,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): better wording,2025-04-28T17:43:11Z,2025-04-28T20:37:10Z,merged,2.9,11,11,3,279,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): add missing margin & padding shorthand explanations,2025-04-28T16:55:37Z,2025-04-28T20:36:49Z,merged,3.69,4,2,2,302,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): update video IDs,2025-04-28T15:14:35Z,2025-04-30T12:56:56Z,merged,45.71,3,3,3,275,2,5,7
+freeCodeCamp/freeCodeCamp,"chore(i18n,client): processed translations",2025-04-28T12:26:20Z,2025-04-28T14:10:47Z,merged,1.74,144,158,1,45,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): replace 'tag' with 'element' in cafe-menu challenges ,2025-04-28T12:10:54Z,2025-04-28T19:34:54Z,merged,7.4,2,4,2,786,2,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): correct assert usage in workshop-cat-painting,2025-04-28T10:54:50Z,2025-04-28T12:15:18Z,merged,1.34,4,4,1,577,2,5,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): align lecture and transcript titles for objects,2025-04-28T01:39:42Z,2025-04-28T09:39:00Z,closed,7.99,1,1,1,275,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): typos in performance lectures,2025-04-27T19:51:45Z,2025-04-30T06:00:20Z,merged,58.14,4,4,3,275,4,12,6
+freeCodeCamp/freeCodeCamp,Fix(Curriculum): typos in transcripts,2025-04-27T08:56:37Z,2025-04-30T06:02:02Z,closed,69.09,3,3,3,275,1,2,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): update assertions to use assert.equal,2025-04-26T16:20:37Z,2025-04-26T20:46:05Z,merged,4.42,3,3,1,275,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): updated assert methods in cat painting workshop step 17,2025-04-26T01:12:05Z,2025-04-26T12:27:31Z,closed,11.26,3,3,1,695,1,1,1
+freeCodeCamp/freeCodeCamp,fix(curriculum): replace assert === with assert.equal for consistency,2025-04-25T22:07:25Z,2025-04-26T18:16:00Z,merged,20.14,4,4,1,642,2,3,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): improve the assert methods ,2025-04-25T18:16:10Z,2025-04-26T19:30:18Z,merged,25.24,3,3,1,420,2,5,4
+freeCodeCamp/freeCodeCamp,chore(curriculum): update TypeScript quiz questions,2025-04-25T18:08:29Z,2025-05-05T18:50:07Z,merged,240.69,50,28,1,342,4,0,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): replace generic asserts with specific methods in cat,2025-04-25T12:46:05Z,2025-04-26T19:36:15Z,merged,30.84,4,4,1,275,2,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): replace assert with assert.exists and assert.equal in cat painting,2025-04-25T09:47:08Z,2025-04-26T19:38:15Z,merged,33.85,4,4,1,682,2,0,2
+freeCodeCamp/freeCodeCamp,fix(api): improve log statements,2025-04-25T08:50:25Z,2025-04-25T10:34:03Z,merged,1.73,15,11,4,0,2,0,2
+freeCodeCamp/freeCodeCamp,feat(curriculum): adding quiz questions for Python basics module,2025-04-25T02:39:40Z,2025-04-30T00:02:32Z,merged,117.38,186,100,1,259,6,0,4
+freeCodeCamp/freeCodeCamp,fix(curriculum): added missing preposition and removed a duplicate explanation,2025-04-25T01:25:48Z,2025-04-25T07:33:09Z,merged,6.12,4,16,2,275,3,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): use specific assert methods in workshop cafe menu steps 66-78,2025-04-25T00:19:46Z,2025-05-08T07:50:56Z,merged,319.52,25,24,9,275,5,1,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): use specific assert methods in workshop cafe menu steps 53-65,2025-04-24T23:57:09Z,2025-04-29T11:04:15Z,merged,107.12,40,40,11,275,3,2,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): use specific assert methods in workshop cafe menu steps 40-52,2025-04-24T23:43:01Z,2025-04-29T16:34:16Z,merged,112.85,14,14,9,275,7,1,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): use specific assert methods in cafe menu workshop steps 27-39,2025-04-24T23:30:28Z,2025-04-29T16:27:24Z,merged,112.95,19,19,7,288,6,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): use specific assert methods in workshop cafe menu steps 14-26,2025-04-24T23:09:13Z,2025-04-29T16:44:44Z,merged,113.59,27,27,11,275,10,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): use specific assert methods in workshop cafe menu steps 79-93,2025-04-24T22:24:06Z,2025-04-28T23:03:40Z,merged,96.66,41,41,13,275,13,6,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): Add a note to let users know to use JavaScript only in the Real Time Counter lab,2025-04-24T22:02:08Z,2025-04-25T06:48:25Z,merged,8.77,1,1,1,275,3,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in lecture understanding core javascript fundamentals,2025-04-24T20:56:32Z,2025-04-24T22:37:44Z,merged,1.69,2,2,2,275,2,0,2
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in english challenge,2025-04-24T20:08:20Z,2025-04-24T22:17:38Z,merged,2.15,1,1,1,291,2,2,3
+freeCodeCamp/freeCodeCamp,fix(curriculum): typo in computer basics review page,2025-04-24T17:10:29Z,2025-04-24T18:24:03Z,merged,1.23,1,1,1,275,2,1,3
+freeCodeCamp/freeCodeCamp,fix(api): add req to the child logger,2025-04-24T17:00:59Z,2025-04-24T19:35:58Z,merged,2.58,1,1,1,0,2,1,3
+codecrafters-io/build-your-own-x,Add a new tutorial for zig.,2025-04-11T18:01:29Z,2025-04-11T19:13:28Z,merged,1.2,1,0,1,293,1,1,1
+codecrafters-io/build-your-own-x,Patch 1,2025-04-05T19:31:19Z,2025-04-06T15:03:04Z,closed,19.53,1,0,2,97,1,1,1
+codecrafters-io/build-your-own-x,add a new operating system tutorial,2025-03-28T11:52:40Z,2025-03-28T13:35:04Z,closed,1.71,1,0,1,193,1,1,1
+codecrafters-io/build-your-own-x,Update README.md,2025-02-04T11:09:30Z,2025-03-04T12:22:31Z,closed,673.22,1,1,1,180,1,2,2
+codecrafters-io/build-your-own-x,Update README.md,2024-12-05T01:45:54Z,2025-01-23T00:33:38Z,closed,1174.8,1,1,1,34,2,0,2
+codecrafters-io/build-your-own-x,feat: added how to build a cli app with node 2024 guide,2024-06-29T08:23:12Z,2024-09-13T13:41:27Z,closed,1829.3,1,0,1,140,1,1,2
+codecrafters-io/build-your-own-x,fix: fixed broken link from list,2024-06-05T21:00:45Z,2024-06-12T21:49:32Z,merged,168.81,1,1,1,12,3,2,5
+codecrafters-io/build-your-own-x,added python commandline tool,2024-04-12T03:57:56Z,2024-04-14T10:53:53Z,closed,54.93,2,0,1,91,2,0,2
+codecrafters-io/build-your-own-x,new pull request,2023-11-23T18:00:26Z,2023-11-24T11:55:09Z,closed,17.91,1,0,1,0,1,0,1
+codecrafters-io/build-your-own-x,Update README.md,2023-10-25T04:24:07Z,2025-02-05T17:34:00Z,closed,11269.16,3,3,1,31,1,1,2
+codecrafters-io/build-your-own-x,Update README.md,2023-10-11T11:40:19Z,2023-10-16T17:13:38Z,closed,125.56,1,0,1,13,1,0,1
+codecrafters-io/build-your-own-x,Fix: Replaced a broken link with alternative from smashingmagazine.com,2023-09-30T06:56:25Z,2023-10-26T20:04:50Z,merged,637.14,1,1,1,142,1,0,1
+codecrafters-io/build-your-own-x,add Build your own VPN/Virtual Switch,2023-05-09T09:03:51Z,2023-05-10T00:26:40Z,merged,15.38,1,0,1,109,3,0,2
+codecrafters-io/build-your-own-x,Add quote information,2023-03-26T10:00:21Z,2023-10-16T15:00:21Z,closed,4901.0,1,1,1,0,1,1,2
+codecrafters-io/build-your-own-x,Add KV store,2023-02-14T19:48:30Z,2023-02-16T11:17:42Z,merged,39.49,1,0,1,48,2,1,2
+codecrafters-io/build-your-own-x,Add Create Your Own CLI Tool with NodeJS,2022-10-05T17:56:03Z,2022-10-09T10:17:49Z,merged,88.36,1,0,1,11,1,1,2
+codecrafters-io/build-your-own-x,add python slack bot,2022-09-02T02:55:49Z,2023-03-02T06:23:48Z,closed,4347.47,1,0,1,136,3,0,3
+codecrafters-io/build-your-own-x,Update README.md,2022-08-16T14:14:12Z,2024-05-25T15:36:32Z,closed,15553.37,1,0,1,70,1,0,1
+codecrafters-io/build-your-own-x,New 2D game development with JavaScript added,2022-08-15T01:52:46Z,2022-11-08T10:10:48Z,closed,2048.3,1,0,1,82,1,0,1
+codecrafters-io/build-your-own-x,Update Games With Go unavailable link,2022-07-16T11:43:47Z,2022-07-20T14:00:56Z,merged,98.29,1,1,1,139,1,1,2
+codecrafters-io/build-your-own-x,Add tutorial for building a Rust Text Editor.,2022-06-18T01:56:48Z,2022-08-04T11:23:29Z,merged,1137.44,1,0,1,57,1,1,2
+codecrafters-io/build-your-own-x,Added tutorial for building a basic Rust CLI app,2022-06-17T12:00:53Z,2023-07-04T13:04:41Z,closed,9169.06,1,0,1,83,4,1,5
+codecrafters-io/build-your-own-x,Emphasize JavaScript's Regex Implementation Topic,2022-02-13T17:59:19Z,2022-02-16T14:06:28Z,merged,68.12,1,1,1,109,1,1,2
+codecrafters-io/build-your-own-x,added cryptoCurreny miner and dockerize tuturial,2021-11-17T20:04:08Z,2022-07-18T13:41:33Z,closed,5825.62,1,0,1,68,1,1,2
+codecrafters-io/build-your-own-x,chore: remove reverse engineering react unavailable resourse,2021-11-05T16:13:59Z,2021-11-30T08:41:01Z,merged,592.45,0,1,1,0,1,0,1
+codecrafters-io/build-your-own-x,Add a tutorial about writing a Tetris game.,2021-06-16T14:11:33Z,2021-08-29T15:42:17Z,closed,1777.51,1,0,1,60,1,0,1
+codecrafters-io/build-your-own-x,Add Ray Tracing in One Weekend,2020-11-17T02:38:14Z,2023-01-31T07:44:39Z,merged,19325.11,1,0,1,188,2,0,1
+sindresorhus/awesome,Add missing period for consistency in the Code-of-Conduct.md section,2025-01-23T07:41:57Z,2025-01-23T08:49:34Z,closed,1.13,1,1,1,7417,2,1,2
+sindresorhus/awesome,Add CodeRabbit,2025-01-17T06:13:49Z,2025-03-04T08:42:03Z,merged,1106.47,1,0,1,7634,7,13,6
+sindresorhus/awesome,Add Large Language Model,2024-12-21T00:31:31Z,2024-12-30T08:56:59Z,closed,224.42,1,0,1,7291,5,4,6
+sindresorhus/awesome,Add Free Apps,2024-12-15T12:17:14Z,2025-01-10T19:04:21Z,closed,630.79,3,0,1,7372,3,13,8
+sindresorhus/awesome,@KAPKYK,2024-12-05T08:17:57Z,2024-12-05T16:07:29Z,closed,7.83,0,0,1,7147,1,0,1
+sindresorhus/awesome,Add Permacomputing,2024-12-02T16:08:58Z,2025-02-28T04:32:36Z,merged,2100.39,1,0,1,7283,8,7,11
+sindresorhus/awesome,Add PostgreSQL hacking,2024-11-23T15:16:45Z,2025-01-25T09:09:05Z,closed,1505.87,1,0,1,6462,10,10,6
+sindresorhus/awesome,"Add ""FOSS Alternatives""",2024-11-01T16:22:48Z,2025-01-12T08:57:13Z,closed,1720.57,1,0,1,7445,5,7,10
+sindresorhus/awesome,Add Python Resources,2024-10-21T20:59:36Z,2024-10-22T13:40:51Z,closed,16.69,1,0,1,7177,1,4,3
+sindresorhus/awesome,Add Reflex,2024-09-30T17:57:07Z,2024-11-23T16:24:13Z,merged,1294.45,1,0,1,7453,2,13,4
+sindresorhus/awesome,Add Windows,2024-09-30T13:00:12Z,2024-11-23T14:44:06Z,merged,1297.73,1,1,1,7353,10,15,7
+sindresorhus/awesome,Add Global Library,2024-08-23T03:40:37Z,2024-10-28T18:29:31Z,closed,1598.82,1,1,1,7380,1,5,5
+sindresorhus/awesome,Add Event-Driven Architecture,2024-08-15T16:16:28Z,2024-11-28T19:02:19Z,merged,2522.76,1,0,1,7205,7,15,5
+sindresorhus/awesome,Update Ionic,2024-08-14T02:09:28Z,2024-08-14T11:56:32Z,merged,9.78,1,1,1,7302,1,0,1
+sindresorhus/awesome,Add Xiangqi,2024-07-15T21:25:06Z,2025-01-19T19:54:32Z,closed,4510.49,1,0,1,7592,4,16,8
+sindresorhus/awesome,Add Email Security,2024-06-27T08:45:24Z,2024-08-11T07:54:18Z,closed,1079.15,1,1,1,7424,4,9,5
+sindresorhus/awesome,Add Worlist,2024-06-25T15:23:21Z,2024-10-22T18:29:35Z,closed,2859.1,1,0,1,7148,1,3,4
+sindresorhus/awesome,Add Lucid Dreams,2024-06-24T22:21:43Z,2024-10-29T06:59:04Z,merged,3032.62,1,0,1,6648,5,6,7
+sindresorhus/awesome,Add Tor,2024-06-14T06:25:07Z,2024-07-23T12:14:43Z,merged,941.83,1,0,1,7683,6,7,5
+sindresorhus/awesome,Add Regex,2024-06-04T12:21:05Z,2024-10-22T18:14:52Z,merged,3365.9,1,0,1,6917,2,6,5
+sindresorhus/awesome,Add Pentest Cheat Sheets,2024-06-02T23:37:28Z,2024-10-22T18:11:22Z,closed,3402.57,1,0,1,443,2,6,7
+sindresorhus/awesome,Add Geocaching,2024-05-19T08:25:16Z,2024-05-31T16:20:15Z,merged,295.92,1,0,1,6572,2,11,6
+sindresorhus/awesome,Add Microsoft Azure Architecture,2024-04-28T00:24:09Z,2024-07-14T09:23:47Z,closed,1856.99,1,0,1,7542,3,8,10
+sindresorhus/awesome,Update link Awesome-C,2024-04-25T23:20:56Z,2024-04-27T11:00:40Z,closed,35.66,1,1,1,59,1,2,3
+sindresorhus/awesome,Add Google Cloud,2024-03-25T12:30:22Z,2024-06-04T12:45:58Z,merged,1704.26,1,0,1,6747,2,11,5
+sindresorhus/awesome,Add LiDAR Place Recognition,2024-03-19T11:57:39Z,2024-04-09T05:01:39Z,closed,497.07,6,3,2,7234,1,6,4
+sindresorhus/awesome,Add VLM Architectures,2024-03-18T15:28:15Z,2024-10-28T18:19:49Z,merged,5378.86,1,0,1,7404,1,12,8
+sindresorhus/awesome,Adding Awesome Farcaster Frames,2024-02-13T16:43:10Z,2024-02-19T22:31:56Z,closed,149.81,1,0,1,7147,1,1,2
+sindresorhus/awesome,Add Babylon.js,2024-02-01T17:50:31Z,2024-10-29T11:09:51Z,merged,6497.32,1,0,1,7280,2,10,7
+sindresorhus/awesome, Add Technical Topics,2024-01-30T14:06:31Z,2024-05-26T15:04:18Z,closed,2808.96,1,0,1,551,1,4,3
+sindresorhus/awesome,Add STEM Academy,2024-01-02T04:11:17Z,2024-01-10T01:35:59Z,closed,189.41,1,0,1,7301,2,4,4
+sindresorhus/awesome,Add Generative AI Meets Julia,2023-12-30T10:14:22Z,2024-10-22T17:48:57Z,closed,7135.58,2,0,1,7111,4,15,3
+sindresorhus/awesome,Add PocketBase,2023-12-06T05:56:56Z,2024-05-25T16:02:45Z,merged,4114.1,1,0,1,7471,3,18,9
+sindresorhus/awesome,Add Locust,2023-12-05T22:41:31Z,2024-10-22T17:48:27Z,closed,7723.12,1,0,1,7331,3,3,5
+sindresorhus/awesome,Add QGis,2023-12-03T17:11:42Z,2024-02-14T09:22:14Z,closed,1744.18,1,0,1,7262,2,4,5
+sindresorhus/awesome,Update readme.md - Add LLM WebUIs,2023-11-27T08:20:33Z,2024-02-14T09:21:35Z,closed,1897.02,1,0,1,7251,1,2,3
+sindresorhus/awesome,Add Telegram Mini Apps,2023-11-21T12:44:37Z,2024-10-22T17:47:56Z,closed,8069.06,1,0,1,7214,2,10,9
+sindresorhus/awesome,Add Annual Security Reports,2023-11-07T16:48:23Z,2024-11-22T09:22:46Z,merged,9136.57,1,0,1,7263,12,21,7
+sindresorhus/awesome,Link to maintained successor for PHP,2023-11-04T02:57:48Z,2024-01-04T13:05:33Z,closed,1474.13,1,1,1,85,2,7,6
+sindresorhus/awesome,Add AI Collection,2023-10-27T08:47:25Z,2024-02-14T08:37:31Z,closed,2639.84,1,0,1,7498,2,9,8
+sindresorhus/awesome,Update contributing.md,2023-10-26T10:21:37Z,2023-10-26T11:42:33Z,merged,1.35,1,1,1,1368,1,1,2
+sindresorhus/awesome,Add Detection Engineering,2023-10-24T23:57:19Z,2024-05-25T15:55:45Z,merged,5127.97,1,0,1,6825,3,7,3
+sindresorhus/awesome,Add RTL,2023-10-12T18:07:54Z,2024-02-14T08:17:41Z,closed,2990.16,1,0,1,7419,1,4,3
+sindresorhus/awesome,Add Spring Boot,2023-10-09T20:11:13Z,2024-02-14T08:14:53Z,closed,3060.06,1,0,1,6963,2,6,7
+sindresorhus/awesome,Add parenting,2023-10-06T10:53:29Z,2024-02-14T08:14:29Z,closed,3141.35,1,0,1,7043,1,5,6
+sindresorhus/awesome,Install meshmap workflow,2023-09-30T12:51:34Z,2023-09-30T14:25:51Z,closed,1.57,34,0,1,6963,1,2,3
+sindresorhus/awesome,Add Processing langage ,2023-09-13T14:06:05Z,2023-10-14T21:46:41Z,closed,751.68,0,0,0,7098,1,16,4
+sindresorhus/awesome,Add Generative AI Companies,2023-08-30T11:47:18Z,2024-01-19T11:25:46Z,closed,3407.64,1,0,1,7506,1,11,8
+sindresorhus/awesome,Add Microsoft Sentinel,2023-08-18T17:15:37Z,2024-02-14T08:12:46Z,closed,4310.95,1,0,1,3587,4,9,7
+sindresorhus/awesome,Add Steam Deck,2023-08-10T11:30:11Z,2023-09-24T17:54:29Z,merged,1086.4,1,0,1,6994,2,8,7
+sindresorhus/awesome,Add Stock Trading,2023-08-02T09:15:47Z,2024-02-14T08:09:43Z,merged,4702.9,1,0,1,3444,3,8,6
+sindresorhus/awesome,Add Prompt Injection,2023-07-30T23:28:41Z,2023-10-14T18:57:02Z,merged,1819.47,1,0,1,7153,2,5,5
+EbookFoundation/free-programming-books,Add 2 Vietnamese courses by Nam .NET,2025-04-28T09:01:07Z,2025-05-02T22:47:56Z,merged,109.78,2,0,1,1684,3,12,4
+EbookFoundation/free-programming-books,Fix stale workflow,2025-04-17T22:15:59Z,2025-04-18T20:14:47Z,merged,21.98,48,1,2,1002,1,1,1
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 46.0.4 to 46.0.5,2025-04-12T10:28:03Z,2025-04-18T22:55:00Z,merged,156.45,1,1,1,4205,1,1,2
+EbookFoundation/free-programming-books,Addition of Node.js Design Patterns,2025-04-08T19:59:37Z,2025-04-10T03:49:23Z,closed,31.83,3,2,2,1871,1,2,3
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 46.0.3 to 46.0.4,2025-04-05T10:43:27Z,2025-04-06T20:38:05Z,merged,33.91,1,1,1,2546,1,1,2
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 46.0.1 to 46.0.3,2025-03-29T11:40:19Z,2025-03-30T20:34:14Z,merged,32.9,1,1,1,5489,1,1,2
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 45.0.5 to 46.0.1,2025-03-22T11:39:25Z,2025-03-24T21:42:56Z,merged,58.06,1,1,1,6674,1,1,2
+EbookFoundation/free-programming-books,"Add ""Science, Programming, Art and Radioelectronics Club"" (SPARC) book",2025-03-08T11:47:24Z,2025-03-08T20:10:55Z,merged,8.39,7,0,2,1309,2,1,2
+EbookFoundation/free-programming-books,Added new HTML and CSS Course ,2025-03-06T16:51:28Z,2025-03-06T21:28:02Z,merged,4.61,1,0,1,755,2,1,2
+EbookFoundation/free-programming-books,[Add] TypeScript Baby By Lwin Moe Paing in books/free-programming-books-my.md,2025-02-13T00:59:51Z,2025-02-14T02:09:41Z,merged,25.16,6,0,1,1067,5,0,2
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 45.0.5 to 45.0.7,2025-02-08T11:37:28Z,2025-03-22T11:39:29Z,closed,1008.03,1,1,1,9079,1,2,3
+EbookFoundation/free-programming-books,"Add ""Python para Matemáticos"" book",2025-02-01T02:05:13Z,2025-02-02T21:26:55Z,merged,43.36,1,0,1,869,1,0,1
+EbookFoundation/free-programming-books,chore(deps): bump eps1lon/actions-label-merge-conflict from 3.0.2 to 3.0.3,2025-01-11T11:41:33Z,2025-03-24T21:43:16Z,merged,1738.03,1,1,1,2348,1,0,1
+EbookFoundation/free-programming-books,linter solved,2025-01-02T08:21:09Z,2025-03-24T21:43:37Z,closed,1957.37,222,255,1,612,1,2,3
+EbookFoundation/free-programming-books,Update free-programming-books-bn.md,2024-12-20T12:35:10Z,2024-12-21T23:29:02Z,merged,34.9,1,0,1,632,1,0,1
+EbookFoundation/free-programming-books,Update check-urls.yml,2024-12-20T00:43:58Z,2024-12-20T12:58:28Z,closed,12.24,34,57,1,1819,1,0,1
+EbookFoundation/free-programming-books,feat: testing book to added to ```books/free-programming-books-subjects.md```,2024-12-16T23:56:10Z,2024-12-17T02:06:34Z,merged,2.17,1,0,1,1094,1,2,2
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 45.0.4 to 45.0.5,2024-12-14T11:04:53Z,2024-12-17T17:26:49Z,merged,78.37,1,1,1,6084,1,0,1
+EbookFoundation/free-programming-books,Added Playground for different languages,2024-12-08T07:59:22Z,2024-12-21T23:30:22Z,merged,327.52,10,2,1,641,3,19,5
+EbookFoundation/free-programming-books,Add Succeed In Software Book,2024-12-02T00:12:14Z,2024-12-02T17:20:46Z,merged,17.14,1,0,1,1128,2,1,3
+EbookFoundation/free-programming-books,added react-router to cheatsheets,2024-11-28T11:52:45Z,2024-12-01T18:38:26Z,merged,78.76,1,0,1,612,1,2,2
+EbookFoundation/free-programming-books,Added Evidence Based Software Engineering Book,2024-11-12T06:26:49Z,2024-11-13T02:15:23Z,merged,19.81,1,0,1,707,1,0,1
+EbookFoundation/free-programming-books,chore(deps): bump tj-actions/changed-files from 45.0.3 to 45.0.4,2024-11-09T11:15:00Z,2024-11-09T23:36:28Z,merged,12.36,1,1,1,7474,2,0,2
+EbookFoundation/free-programming-books,Add AI Safety for Fleshy Humans,2024-11-08T22:05:28Z,2024-11-10T01:18:01Z,merged,27.21,1,0,1,1090,3,0,3
+EbookFoundation/free-programming-books,Add How to Think Like a Computer Scientist Learning with Python 3 (Ao…,2024-11-06T19:47:48Z,2024-11-07T18:48:16Z,merged,23.01,1,0,1,1123,2,4,3
+EbookFoundation/free-programming-books,Added License,2024-11-06T05:35:16Z,2024-11-07T02:30:25Z,merged,20.92,1,1,1,562,2,1,1
+EbookFoundation/free-programming-books,Update Dead Links for Compiler Design Books,2024-11-03T18:27:04Z,2024-11-04T18:50:53Z,merged,24.4,2,2,1,194,3,1,1
+EbookFoundation/free-programming-books,Added 3 courses to the `free-courses-hi.md` file.,2024-11-01T13:12:14Z,2024-12-24T20:07:14Z,closed,1278.92,4,1,1,1048,1,1,2
+EbookFoundation/free-programming-books,Added 5 more Next.js courses to free-courses-hi.md,2024-10-30T22:48:40Z,2024-11-01T12:41:12Z,merged,37.88,5,0,1,1181,3,12,3
+EbookFoundation/free-programming-books,Added quatum computing books,2024-10-30T15:41:52Z,2024-10-31T10:07:37Z,closed,18.43,0,0,0,1485,1,1,2
+EbookFoundation/free-programming-books,Added a free Course in free-courses-hi.md,2024-10-30T10:02:25Z,2024-10-31T14:44:41Z,merged,28.7,1,0,1,846,1,0,1
+EbookFoundation/free-programming-books,Added Ezhil Programming Book In Tamil Language,2024-10-30T04:18:03Z,2024-11-02T20:18:15Z,merged,88.0,6,0,1,728,2,0,2
+EbookFoundation/free-programming-books,CC Licenses added in PT-BR books section,2024-10-30T03:18:16Z,2024-10-30T21:11:57Z,merged,17.89,4,4,1,1110,2,2,3
+EbookFoundation/free-programming-books,Fixed Existing Tamil Language Books file,2024-10-28T08:45:54Z,2024-10-28T19:58:13Z,merged,11.21,7,7,1,907,3,1,3
+EbookFoundation/free-programming-books,Added English book (Learn Java for FTC),2024-10-27T21:40:31Z,2024-10-28T13:30:54Z,merged,15.84,1,0,1,1055,1,0,1
+EbookFoundation/free-programming-books,Adding git course in PT-BR section,2024-10-27T16:12:57Z,2024-10-28T20:07:35Z,merged,27.91,1,0,1,646,2,0,2
+EbookFoundation/free-programming-books,Added Nextjs Resources in free-courses-ur.md,2024-10-27T09:42:16Z,2024-10-27T17:16:43Z,merged,7.57,6,0,1,708,3,1,4
+EbookFoundation/free-programming-books,Added Complete NodeJS + ExpressJS + MongoDB Course by Complete Coding by Prashant Sir to free-courses-hi.md,2024-10-27T08:39:27Z,2024-10-28T13:20:07Z,merged,28.68,1,0,1,695,3,1,2
+EbookFoundation/free-programming-books,Added Design and Analysis of Algorithms course by THE GATEHUB to free-courses-hi.md,2024-10-27T07:29:09Z,2024-10-27T17:04:47Z,merged,9.59,1,0,1,631,1,1,2
+EbookFoundation/free-programming-books,Update free-courses-te.md,2024-10-27T06:21:06Z,2024-10-27T16:49:11Z,merged,10.47,1,0,1,746,2,1,2
+EbookFoundation/free-programming-books,"Added ruby, ruby on rails and rust hindi tutorials in free-courses-hindi.md (request review from urdu speaker)",2024-10-26T10:24:19Z,2024-10-31T14:41:46Z,merged,124.29,4,0,1,721,6,6,4
+EbookFoundation/free-programming-books,Adding (CC BY) licenses in GO (PT-BR) section,2024-10-25T18:25:24Z,2024-10-26T17:35:39Z,merged,23.17,3,3,1,948,2,0,2
+EbookFoundation/free-programming-books,Update free-courses-ml.md,2024-10-25T14:26:55Z,2024-10-27T14:34:03Z,merged,48.12,2,1,1,745,2,0,1
+EbookFoundation/free-programming-books,Update free-courses-de.md,2024-10-25T14:18:04Z,2024-10-26T17:36:45Z,merged,27.31,1,0,1,613,1,2,2
+EbookFoundation/free-programming-books,bangla programing books added,2024-10-25T12:56:20Z,2024-10-27T14:36:50Z,merged,49.67,7,0,1,632,2,4,2
+EbookFoundation/free-programming-books,Update free-courses-zh.md,2024-10-25T11:21:12Z,2024-10-26T17:38:36Z,merged,30.29,1,1,1,688,1,1,2
+EbookFoundation/free-programming-books,"Added C, C# and C++ pdfs ",2024-10-24T17:57:30Z,2024-11-30T06:26:16Z,closed,876.48,3,0,1,25,1,1,2
+EbookFoundation/free-programming-books,Added Linux books in Tamil language,2024-10-24T05:14:54Z,2024-10-26T16:04:54Z,merged,58.83,7,0,1,734,2,2,2
+EbookFoundation/free-programming-books,Add License Information to 'Open Data Structures (In C++)',2024-10-23T13:19:19Z,2024-10-23T21:47:55Z,merged,8.48,2,2,1,1198,1,0,1
+EbookFoundation/free-programming-books,Update for ded links - kn. and uk.,2024-10-23T00:46:22Z,2024-10-23T15:44:54Z,merged,14.98,1,3,2,670,1,0,1
+EbookFoundation/free-programming-books,Adding (CC BY-NC-ND) license,2024-10-22T23:55:05Z,2024-10-23T21:52:12Z,merged,21.95,1,2,1,840,3,1,2
+EbookFoundation/free-programming-books,Update free-programming-books-ta.md,2024-10-22T18:28:23Z,2024-10-23T21:51:26Z,closed,27.38,8,2,1,807,3,16,3
+EbookFoundation/free-programming-books,[Updated] Kotlin Course,2024-10-22T15:15:29Z,2024-10-23T15:47:48Z,merged,24.54,1,0,1,688,1,2,2

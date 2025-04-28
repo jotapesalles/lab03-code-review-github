@@ -1,10 +1,15 @@
+# collect_pull_requests.py
+
 import csv
 import requests
 import os
 from time import sleep
 from datetime import datetime
 from requests.exceptions import RequestException
+from dotenv import load_dotenv
 
+# Carrega variáveis de ambiente de .env
+load_dotenv()
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"Bearer {GITHUB_TOKEN}"}
 API_URL = "https://api.github.com/graphql"
@@ -52,11 +57,13 @@ def build_query(owner, name, cursor=None):
             additions
             deletions
             changedFiles
-            reviews {{
+            reviews(first: 100) {{
               totalCount
+              nodes {{ author {{ login }} }}
             }}
-            comments {{
+            comments(first: 100) {{
               totalCount
+              nodes {{ author {{ login }} }}
             }}
           }}
         }}
@@ -86,7 +93,7 @@ def save_valid_pr(pr, repo_name):
             writer.writerow([
                 "repo", "title", "created_at", "closed_at", "status",
                 "duration_hours", "additions", "deletions", "changed_files",
-                "body_length", "review_count", "comment_count"
+                "body_length", "review_count", "comment_count", "participant_count"
             ])
 
         created_at = pr["createdAt"]
@@ -97,6 +104,19 @@ def save_valid_pr(pr, repo_name):
         ).total_seconds() / 3600
 
         status = "merged" if pr["mergedAt"] else "closed"
+
+        # Conta participantes únicos de reviews + comentários
+        reviewers = {
+            r["author"]["login"]
+            for r in pr["reviews"]["nodes"]
+            if r.get("author")
+        }
+        commenters = {
+            c["author"]["login"]
+            for c in pr["comments"]["nodes"]
+            if c.get("author")
+        }
+        participant_count = len(reviewers.union(commenters))
 
         writer.writerow([
             repo_name,
@@ -110,7 +130,8 @@ def save_valid_pr(pr, repo_name):
             pr["changedFiles"],
             len(pr["bodyText"]),
             pr["reviews"]["totalCount"],
-            pr["comments"]["totalCount"]
+            pr["comments"]["totalCount"],
+            participant_count
         ])
 
 def load_processed_repos():
@@ -141,19 +162,23 @@ def save_prs_to_csv(repos_csv="repositories.csv", max_pages=3):
             prs = collect_prs(repo["owner"], repo["name"], max_pages=max_pages)
         except Exception as e:
             print(f"❌ Erro ao buscar PRs de {full_name}: {e}")
-            continue  # Tenta o próximo repositório
+            continue
 
         count_saved = 0
         for pr in prs:
+            # só fechado ou mesclado
             if not pr["closedAt"] and not pr["mergedAt"]:
                 continue
+            # exige pelo menos 1 review
             if pr["reviews"]["totalCount"] < 1:
                 continue
+            # duração mínima de 1h
             created = datetime.fromisoformat(pr["createdAt"].replace("Z", "+00:00"))
             closed = pr["closedAt"] or pr["mergedAt"]
             closed = datetime.fromisoformat(closed.replace("Z", "+00:00"))
             if (closed - created).total_seconds() / 3600 < 1:
                 continue
+
             save_valid_pr(pr, full_name)
             count_saved += 1
 

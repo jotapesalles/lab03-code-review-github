@@ -1,0 +1,4 @@
+freeCodeCamp/freeCodeCamp
+codecrafters-io/build-your-own-x
+sindresorhus/awesome
+EbookFoundation/free-programming-books
