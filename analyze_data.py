@@ -3,18 +3,16 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import spearmanr
+import os
 
 # 1. Carregamento e preparação
-df = pd.read_csv(
-    'pull_requests_filtered.csv',
-    parse_dates=['created_at', 'closed_at']
-)
-df['duration_hours'] = (
-    df['closed_at'] - df['created_at']
-).dt.total_seconds() / 3600
+df = pd.read_csv('pull_requests_filtered.csv')
+
+# Verificar quais colunas de datas existem no CSV
+print("Colunas disponíveis:", df.columns.tolist())
 
 # Codifica merged como 1 e closed como 0
-df['merged_flag'] = (df['status'] == 'merged').astype(int)
+df['merged_flag'] = (df['state'] == 'merged').astype(int)
 
 # 2. Estatísticas descritivas
 metrics = [
@@ -23,8 +21,7 @@ metrics = [
     'changed_files',
     'duration_hours',
     'review_count',
-    'comment_count',
-    'participant_count'
+    'comment_count'
 ]
 
 print("\n--- Medianas por Status (0 = closed, 1 = merged) ---")
@@ -41,6 +38,9 @@ for m in metrics:
     )
 
 # 4. Visualizações
+
+# Garantir que o diretório plots existe
+os.makedirs('plots', exist_ok=True)
 
 # Boxplot de duração por status
 plt.figure()
@@ -62,3 +62,5 @@ plt.ylabel('Número de Reviews')
 plt.title('Changed Files vs Review Count')
 plt.savefig('plots/review_scatter.png')
 plt.close()
+
+print("\nAnálise concluída. Visualizações salvas na pasta 'plots/'.")
